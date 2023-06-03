@@ -1,0 +1,33 @@
+.contacts-wrapper {
+  margin-top: 5%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 100px;
+  display: flex;
+}
+.contacts-wrapper > div {
+  margin: 30px;
+  padding: 20px;
+}
+
+.contact-container {
+  background-color: white;
+  color: black;
+  border-radius: 15px;
+  border: 4px solid black;
+  width: 300px;
+}
+.contact-container:hover {
+  transform: scale(1.1);
+  transition: 0.5s;
+  cursor: pointer;
+  -webkit-box-shadow: 2px 7px 41px 14px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 2px 7px 41px 14px rgba(0, 0, 0, 0.75);
+  box-shadow: 2px 7px 41px 14px rgba(0, 0, 0, 0.75);
+}
+
+.contact-container:not(:hover) {
+  transform: scale(1);
+  transition: 0.5s;
+  cursor: pointer;
+}

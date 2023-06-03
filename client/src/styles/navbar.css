@@ -1,0 +1,47 @@
+.navbar-wrapper {
+  display: flex;
+  justify-content: space-between;
+  background-color: black;
+  color: white;
+  font-size: 22px;
+  -webkit-box-shadow: 28px 26px 60px -28px rgba(0, 0, 0, 1);
+  -moz-box-shadow: 28px 26px 60px -28px rgba(0, 0, 0, 1);
+  box-shadow: 28px 26px 60px -28px rgba(0, 0, 0, 1);
+  border-radius: 0px 0px 10px 10px;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1;
+}
+
+.first-part {
+  display: flex;
+}
+.first-part > * {
+  padding: 5px 20px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+.nav-link:hover {
+  background-color: white;
+  color: black;
+}
+.selected-link {
+  background-color: white;
+  color: black;
+}
+.second-part {
+  padding-right: 20px;
+  display: flex;
+}
+.second-part > * {
+  padding: 5px 5px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+.logo-image {
+  padding: 5px 10px 5px 10px !important;
+  width: 80px;
+}

@@ -1,0 +1,76 @@
+.blur-background {
+  align-items: center;
+  flex-direction: column;
+  display: flex;
+  /* height: 100vh; */
+  /* top: 20%; */
+  /* left: 0; */
+  justify-content: center;
+  top: 0px;
+  position: absolute;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 100%;
+}
+
+.min-500-px {
+  min-width: 500px;
+}
+.add-number-button {
+  margin-top: 25px;
+  padding: 5px 20px;
+  width: 100%;
+  min-width: 200px;
+  color: white;
+  background-color: black;
+  font-size: 20px;
+  color: black;
+  border: 2px solid black;
+  background: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.add-number-button:active {
+  background: rgb(190, 189, 189);
+}
+
+.close-button {
+  background-color: black;
+  color: white;
+  padding: 5px 15px;
+  margin-bottom: 0.5rem !important;
+  margin-left: 20px;
+  border-radius: 5px;
+  font-family: none;
+  font-size: 20px;
+  font-weight: 900;
+}
+
+.modal-head-with-close-button-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.modal-close-button {
+  margin-right: -10px !important;
+  margin-top: -5px;
+}
+
+.delete-contact-button {
+  margin-top: 25px;
+  padding: 5px 20px;
+  width: 100%;
+  min-width: 200px;
+
+  background-color: #d04841;
+  font-size: 20px;
+  color: white;
+  border: 2px solid black;
+
+  border-radius: 5px;
+  cursor: pointer;
+}
+.delete-contact-button:active {
+  background-color: #772925;
+}
