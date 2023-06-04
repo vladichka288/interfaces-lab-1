@@ -15,7 +15,11 @@
     "isolatedModules": true,
     "experimentalDecorators": true,
     "noEmit": true,
-    "jsx": "react-jsx"
+    "jsx": "react-jsx",
+    "paths": {
+      "test-utils": ["./test-utils/test-utils"]
+    }
   },
-  "include": ["src"]
+
+  "include": ["**/*.ts", "**.spec.ts", "src"]
 }

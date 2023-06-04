@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "@testing-library/cypress": "^9.0.0",
+    "eslint-plugin-cypress": "^2.13.3"
+  }
+}
